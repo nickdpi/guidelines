@@ -1,0 +1,103 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+background: rgb(219,218,255);
+background: linear-gradient(124deg, rgba(219,218,255,1) 0%, rgba(255,230,223,1) 35%, rgba(217,255,221,1) 67%, rgba(225,228,255,1) 92%, rgba(249,209,255,1) 100%);
+color: #16161d;
+font-family: Georgia, serif;
+font-size: 22px;
+height: 100%;
+margin: 0;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+#content {
+margin: 0 auto;
+max-width: 40em;
+width: 80%;
+padding: 4em 0.5em 1em 0.5em;
+line-height: 1.5em;
+}
+
+h1 {
+font-size: 2em;
+margin-bottom: 0.75em;
+}
+
+h2 {
+font-style: italic;
+font-size: 1.25em;
+}
+
+h3 {
+padding: 3em 0;
+}
+
+h1, h3 {
+text-align: center;
+line-height: 1.2em;
+}
+
+p, ul, ol {
+margin-bottom: 1em;
+}
+.footnotes p, .bigfoot-footnote__content p {
+margin-bottom: 0;
+font-size: 0.8em;
+}
+
+li {
+margin: 0 0.25em 0 2em;
+}
+
+a {
+text-decoration: none;
+color: #2222df;
+}
+
+h2 a {
+font-weight: bold;
+}
+
+h3 a {
+color: #333;
+font-size: 1.5em;
+}
+
+a:hover {
+text-decoration: underline;
+color: #333;
+background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.tel {
+font-variant-numeric: lining-nums;
+-moz-font-feature-settings: "lnum";
+-webkit-font-feature-settings: "lnum";
+font-feature-settings: "lnum";
+}
+
+/* responsive */
+@media only screen and (max-width: 767px) {
+	#content {
+		width: 90%;
+		padding-top: 2em;
+	}
+	h1 {
+		font-size: 1.5em;
+	}
+}
